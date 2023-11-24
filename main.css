@@ -1,14 +1,66 @@
+a {
+    text-decoration: none;
 
-
+  }
 body {
     color: aqua;
     background-color: #202020;
-    font-family: sans-serif;
+    font-family: sans-serif; 
 }
 
-.header {
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    color: #202020;
+    background: rgb(9,9,121);
+    background: linear-gradient(135deg, rgba(9,9,121,1) 0%, rgba(121,9,9,1) 100%);
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 15mm;
+}
+
+logobg {
+    display: block;
+    background-color: #2020a0;
+    align-items: center;
+    align-content: center;
+    top: 0%;
+    bottom: 0%;
+    padding-left: 5mm;
+    padding-right: 5mm;
+    font-size: 20px;
+    height: 15mm;
+}
+
+upbttns {
     display: flex;
     position: sticky;
-    background-color: #808080;
-    top: 20px;  
+    align-items: center;
+    justify-content: space-around ;
+    width: 25%;
+}
+
+navbtn {
+    position: flex;
+
+}
+
+scarf {
+    display: block;
+    position: static;
+    left: 5mm;
+    right: 5mm;
+}
+
+
+footer {
+    display: contents;
+    position: absolute; 
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: black;
 }
