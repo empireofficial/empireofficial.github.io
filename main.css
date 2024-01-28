@@ -1,5 +1,5 @@
 a {
-    text-decoration: none;
+    
 
   }
 body {
@@ -25,6 +25,7 @@ header {
 logobg {
     display: block;
     background-color: #2020a0;
+    color: aqua;
     align-items: center;
     align-content: center;
     top: 0%;
@@ -62,5 +63,5 @@ footer {
     bottom: 0%;
     left: 0%;
     right: 0%;
-    background-color: black;
+    background-color: white;
 }
