@@ -1,14 +1,15 @@
 * {
-    margin: 0;
-    margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     white-space: nowrap
   }
 
   body {
     background-color: #222;
-  
+    height: 1280px;
   }
 
 a{
@@ -18,7 +19,7 @@ a{
 }
 
 
-p {
+p,h4 {
   display: inline;
   color: #888;
 }
@@ -26,33 +27,8 @@ p {
 header{
   position: relative;
   margin: 0 2rem;
-  
-}
-
-h4{
-  color: #888;
-}
-.action_btn:hover {
-  scale: 1.05;
-}
-
-.action_btn:active {
-  scale: 0.95;
-}
-
-@media(max-width: 992px){
-  .navbar .links,
-  .navbar .action_btn{
-    display: none;
-  }
-
-  .navbar .toggle_btn { 
-    display: block;
-  }
-}
-
-.scarf {
-height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bio {
@@ -70,6 +46,7 @@ height: 100%;
 .list {
   margin-left: 11px;
   margin-right: 11px;
+  align-self: auto;
 }
 .me { grid-area: 1 / 1 / 2 / 2; }
 .pc { grid-area: 1 / 2 / 2 / 3; }
@@ -79,3 +56,8 @@ height: 100%;
 .div6 { grid-area: 2 / 3 / 3 / 4; }
 
 
+.footer{
+  align-items: end;
+
+  padding: 20px,20px,20px,20px;
+}
