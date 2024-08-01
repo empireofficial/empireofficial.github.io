@@ -69,6 +69,7 @@ height: 100%;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
+  
 .me { grid-area: 1 / 1 / 2 / 2; }
 .pc { grid-area: 1 / 2 / 2 / 3; }
 .phone { grid-area: 2 / 2 / 3 / 3; }
