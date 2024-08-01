@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    white-space: nowrap
   }
 
   body {
@@ -10,14 +11,10 @@
   
   }
 
-li{
-  list-style: none;
-}
-
 a{
   text-decoration: none;
   font-size: 1rem;
-  color: #66d;
+  color: #55d;
 }
 
 
@@ -69,7 +66,7 @@ height: 100%;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
-  
+
 .me { grid-area: 1 / 1 / 2 / 2; }
 .pc { grid-area: 1 / 2 / 2 / 3; }
 .phone { grid-area: 2 / 2 / 3 / 3; }
