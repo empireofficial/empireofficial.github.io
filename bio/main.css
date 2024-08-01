@@ -68,8 +68,8 @@ height: 100%;
   }
 
 .list {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 11px;
+  margin-right: 11px;
 }
 .me { grid-area: 1 / 1 / 2 / 2; }
 .pc { grid-area: 1 / 2 / 2 / 3; }
