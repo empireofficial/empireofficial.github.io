@@ -9,7 +9,6 @@
 
   body {
     background-color: #222;
-    height: 1280px;
   }
 
 a{
@@ -57,7 +56,8 @@ header{
 
 
 .footer{
-  align-items: end;
-
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
   padding: 20px,20px,20px,20px;
 }
