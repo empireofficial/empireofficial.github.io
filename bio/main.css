@@ -8,7 +8,11 @@
   }
 
 body {
-    background-color: #222;
+    /*background-color: black;*/ 
+    background-image: url('https://thumbsnap.com/i/khE74cbC.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
 a {
@@ -31,7 +35,6 @@ header{
 }
 
 .bio {
-  
   margin-left: 5%;
   margin-right: 5%;
   height: auto;
@@ -40,17 +43,48 @@ header{
   grid-template-rows: repeat(2);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+
   }
 
 .me { 
   grid-area: 1 / 1 / 2 / 2; 
   min-height: 300px;
+
+  /*background-color: #222;*/
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(32, 32, 32, 0.3);
 }
-.pc { grid-area: 1 / 2 / 2 / 3; }
-.phone { grid-area: 2 / 2 / 3 / 3; }
+.pc { grid-area: 1 / 2 / 2 / 3; 
+
+  /*background-color: #222;*/
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(32, 32, 32, 0.3);
+}
+.phone { grid-area: 2 / 2 / 3 / 3; 
+
+  /*background-color: #222;*/
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(32, 32, 32, 0.3);
+}
 .projects { 
   grid-area: 2 / 1 / 3 / 2; 
   min-height: 300px;
+
+  /*background-color: #222;*/
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(32, 32, 32, 0.3);
 }
 .div5 { grid-area: 1 / 3 / 2 / 4; }
 .div6 { grid-area: 2 / 3 / 3 / 4; }
